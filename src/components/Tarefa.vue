@@ -1,7 +1,7 @@
 <template>
   <Box>
     <div class="columns">
-      <div class="column is-7">{{ tarefa.descricao || 'Tarefa secreta :p' }}</div>
+      <div class="column is-7">{{ tarefa.descricao || 'Tarefa secreta :)' }}</div>
       <div class="column">
         <Cronometro :tempoEmSegundos="tarefa.duracaoEmSegundos"/>
       </div>
